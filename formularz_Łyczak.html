@@ -6,7 +6,103 @@
 			<title> </title>
 		</head>
 		<body>
-			tutaj będzie formularz <br>
+			  <h1>Formularz o Muzyce</h1>
+
+    <form>
+        <!-- Personal Information -->
+        <label for="name">Imię i nazwisko:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <!-- Favorite Artists Information -->
+        <h2>Informacje o ulubionych artystach</h2>
+        <table border="1">
+            <tr>
+                <th>Nazwa Zespołu/Artysty</th>
+                <th>Gatunek Muzyki</th>
+                <th>Najpopularniejszy Utwór</th>
+                <th>Album</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="artist1_name"></td>
+                <td><input type="text" name="artist1_genre"></td>
+                <td><input type="text" name="artist1_song"></td>
+                <td><input type="text" name="artist1_album"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="artist2_name"></td>
+                <td><input type="text" name="artist2_genre"></td>
+                <td><input type="text" name="artist2_song"></td>
+                <td><input type="text" name="artist2_album"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="artist3_name"></td>
+                <td><input type="text" name="artist3_genre"></td>
+                <td><input type="text" name="artist3_song"></td>
+                <td><input type="text" name="artist3_album"></td>
+            </tr>
+        </table><br>
+
+        <!-- Preferred Music Genres -->
+        <h2>Ulubione gatunki muzyczne</h2>
+        <input type="checkbox" name="genre" value="metal"> Metal<br>
+        <input type="checkbox" name="genre" value="rock"> Rock<br>
+        <input type="checkbox" name="genre" value="hiphop"> Hip-hop<br>
+        <input type="checkbox" name="genre" value="pop"> Pop<br>
+        <input type="checkbox" name="genre" value="indie"> Indie<br>
+        <input type="checkbox" name="genre" value="punkrock"> Punk Rock<br>
+        <input type="checkbox" name="genre" value="dance"> Dance<br>
+        <input type="checkbox" name="genre" value="house"> House<br>
+        <input type="checkbox" name="genre" value="rnb"> R&B<br>
+        <input type="checkbox" name="genre" value="techno"> Techno<br>
+        <input type="checkbox" name="genre" value="folk"> Folk<br><br>
+
+        <!-- Musical Instrument -->
+        <p>Czy grasz na jakimś instrumencie?</p>
+        <input type="radio" name="instrument" value="yes"> Tak<br>
+        <input type="radio" name="instrument" value="no"> Nie<br><br>
+
+        <!-- Music Listening Preferences -->
+        <h2>Jak słuchasz muzyki najczęściej?</h2>
+        <input type="checkbox" name="listening" value="streaming"> Serwisy streamingowe (np. Spotify, Apple Music)<br>
+        <input type="checkbox" name="listening" value="radio"> Radio<br>
+        <input type="checkbox" name="listening" value="cd"> Płyta CD<br>
+        <input type="checkbox" name="listening" value="vinyl"> Winyle<br>
+        <input type="checkbox" name="listening" value="concerts"> Koncerty<br><br>
+
+        <!-- Favorite Songs -->
+        <h2>Ulubione piosenki</h2>
+        <ol>
+            <li><input type="text" name="favorite_song1"></li>
+            <li><input type="text" name="favorite_song2"></li>
+            <li><input type="text" name="favorite_song3"></li>
+            <li><input type="text" name="favorite_song4"></li>
+            <li><input type="text" name="favorite_song5"></li>
+        </ol><br>
+
+        <!-- Favorite Albums and Release Year -->
+        <h2>Ulubione Albumy</h2>
+        <table border="1">
+            <tr>
+                <th>Ulubione Albumy</th>
+                <th>Rok ich Debiutu</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="album1_name"></td>
+                <td><input type="number" name="album1_year"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="album2_name"></td>
+                <td><input type="number" name="album2_year"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="album3_name"></td>
+                <td><input type="number" name="album3_year"></td>
+            </tr>
+        </table><br>
+
 			<A HREF="https://d0lyczak.github.io/Szkola/"> wróć </A> <br>
 		</body>
 	</html>
